@@ -28,6 +28,8 @@
     # Enable vim compatible mode, avoid changing origin vim key bindings
     vimcompatible = true
 
+    bootstrap_after = "bootstrap#after"
+
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
@@ -59,4 +61,17 @@ name = "lang#python"
 
 [[layers]]
 name = "lang#toml"
+
+
+[[layers]]
+  name = "lang#markdown"
+
+[[layers]]
+  name = "lang#html"
+
+[[layers]]
+  name = "git"
+
+[[layers]]
+  name = "lang#javascript"
 
