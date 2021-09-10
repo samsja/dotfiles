@@ -28,7 +28,7 @@
     # Enable vim compatible mode, avoid changing origin vim key bindings
     vimcompatible = true
 
-    bootstrap_after = "bootstrap#after"
+    # bootstrap_after = "bootstrap#after"
 
 # Enable autocomplete layer
 [[layers]]
