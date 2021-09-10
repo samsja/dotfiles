@@ -67,7 +67,7 @@ bindsym $mod+e exec pcmanfm
 bindsym $mod+Shift+v exec $term -e 'nvim'
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
-bindsym $mod+F5 exec $term -e 'mocp'
+bindsym $mod+F7 exec $term -e 'mocp'
 bindsym $mod+t exec --no-startup-id pkill compton
 bindsym $mod+Ctrl+t exec --no-startup-id compton -b
 bindsym $mod+Shift+d --release exec "killall dunst; exec notify-send 'restart dunst'"
@@ -76,6 +76,12 @@ bindsym $mod+Print --release exec --no-startup-id i3-scrot -w
 bindsym $mod+Shift+Print --release exec --no-startup-id i3-scrot -s
 bindsym $mod+Shift+h exec xdg-open /usr/share/doc/manjaro/i3_help.pdf
 bindsym $mod+Ctrl+x --release exec --no-startup-id xkill
+
+# bindsym light/dark mode
+
+bindsym $mod+F6 exec ats --select samsja_light.yaml
+bindsym $mod+F5 exec ats --select samsja_dark.yaml
+
 
 # focus_follows_mouse no
 
