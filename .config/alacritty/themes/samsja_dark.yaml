@@ -1,0 +1,36 @@
+# iTerm2 Material Design - Palenight theme for Alacritty
+# Source : https://github.com/JonathanSpeek/palenight-iterm2
+
+#modified by samsja for i3 manjaro
+
+font:
+  size: 13.0
+
+colors:
+  # Default colors
+  primary:
+    background: '0x222d31'
+    foreground: '0xd0d0d0'
+
+  # Normal colors
+  normal:
+    black:   '0x222d31'
+    red:     '0xf07178'
+    green:   '0xc3e88d'
+    yellow:  '0xf7ca88'
+    blue:    '0x7cafc2'
+    magenta: '0xba8baf'
+    cyan:    '0x1ABB9B'
+    white:   '0xd8d8d8'
+
+  # Bright colors
+  bright:
+    black:   '0x585858'
+    red:     '0xff8b92'
+    green:   '0xddffa7'
+    yellow:  '0xf7ca88'
+    blue:    '0x7cafc2'
+    magenta: '0xba8baf'
+    cyan:    '0x1ABB9B'
+    white:   '0xf8f8f8'
+
