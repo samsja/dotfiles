@@ -8,7 +8,10 @@ export ZSH="/home/samsja/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="lambda-mod"
+#
+#ZSH_THEME="lambda-mod"
+#ZSH_THEME="spaceship"
+eval "$(starship init zsh)"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -116,6 +119,7 @@ alias kb="kubectl"
 alias xc="xclip -selection clipboard"
 alias v="nvim"
 
+alias cat="bat --style=plain"
 alias ls="exa"
 alias ll="exa -lal"
 alias grep="rg"
@@ -126,21 +130,10 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 export BROWSER="/usr/bin/firefox"
 export EDITOR="nvim"
 
-
-#export PYENV_ROOT="$HOME/.pyenv"
-#export PATH="$PYENV_ROOT/bin:$PATH"
-#if command -v pyenv 1>/dev/null 2>&1; then
-#  eval "$(pyenv init -)"
-#fi
 #
 export PATH="${PATH}:${HOME}/.krew/bin"
 
 export KUBECONFIG=~/.kube/config.yaml
-export PYENV_ROOT="$HOME/.pyenv"
-export PATH="$PYENV_ROOT/bin:$PATH"
-if command -v pyenv 1>/dev/null 2>&1; then
-  eval "$(pyenv init -)"
-fi
 
 source /home/samsja/.config/broot/launcher/bash/br
 
@@ -150,3 +143,10 @@ PERL_LOCAL_LIB_ROOT="/home/samsja/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_
 PERL_MB_OPT="--install_base \"/home/samsja/perl5\""; export PERL_MB_OPT;
 PERL_MM_OPT="INSTALL_BASE=/home/samsja/perl5"; export PERL_MM_OPT;
 source /usr/share/nvm/init-nvm.sh
+
+export PYENV_ROOT="$HOME/.pyenv"
+export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+
+
