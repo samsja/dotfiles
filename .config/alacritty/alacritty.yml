@@ -1,0 +1,26 @@
+font:
+  size: 15
+window:
+  opacity: 0.95
+colors:
+  primary:
+    background: '0x1F2430'
+    foreground: '0xd0d0d0'
+  normal:
+    black: '0x222d31'
+    red: '0xf07178'
+    green: '0xc3e88d'
+    yellow: '0xf7ca88'
+    blue: '0x7cafc2'
+    magenta: '0xba8baf'
+    cyan: '0x1ABB9B'
+    white: '0xd8d8d8'
+  bright:
+    black: '0x585858'
+    red: '0xff8b92'
+    green: '0xddffa7'
+    yellow: '0xf7ca88'
+    blue: '0x7cafc2'
+    magenta: '0xba8baf'
+    cyan: '0x1ABB9B'
+    white: '0xf8f8f8'
