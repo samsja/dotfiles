@@ -1,0 +1,5 @@
+#!/bin/bash
+
+conky -c  ~/.config/conky/custom/conky_maia &&
+
+exit 0

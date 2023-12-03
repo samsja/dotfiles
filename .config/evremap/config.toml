@@ -1,0 +1,44 @@
+# The name of the device to remap.
+# Run `sudo evremap list-devices` to see the devices available
+# on your system.
+device_name = "SINO WEALTH Mechanical Keyboard"
+
+# If you have multiple devices with the same name, you can optionally
+# specify the `phys` value that is printed by the `list-devices` subcommand
+# phys = "usb-0000:07:00.3-2.1.1/input0"
+
+# Configure CAPSLOCK as a Dual Role ke.
+# Holding it produces LEFTCTRL, but tapping it
+# will produce ESC.
+# Both `tap` and `hold` can expand to multiple output key
+
+
+
+[[remap]]
+input = ["KEY_CAPSLOCK","KEY_I"]
+output = ["KEY_UP"]
+
+[[remap]]
+input = ["KEY_CAPSLOCK","KEY_L"]
+output = ["KEY_RIGHT"]
+
+[[remap]]
+input = ["KEY_CAPSLOCK","KEY_K"]
+output = ["KEY_DOWN"]
+
+[[remap]]
+input = ["KEY_CAPSLOCK","KEY_J"]
+output = ["KEY_LEFT"]
+
+[[remap]]
+input = ["KEY_MENU"]
+output = ["KEY_DOWN"]
+
+[[remap]]
+input = ["KEY_RIGHTSHIFT"]
+output = ["KEY_UP"]
+
+
+[[remap]]
+input = ["KEY_RIGHTCTRL"]
+output = ["KEY_RIGHT"]
