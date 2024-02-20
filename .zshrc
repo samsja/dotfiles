@@ -23,7 +23,7 @@ command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
 
 alias config='/usr/bin/git --git-dir=/home/samsja/.cfg/ --work-tree=/home/samsja'
-
+BROWSER=/usr/bin/google-chrome-stable
 
 neofetch
 
